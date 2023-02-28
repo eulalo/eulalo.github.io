@@ -1,0 +1,48 @@
+.part-two_pic {
+	height: 740px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.part-two_pic img {
+	height: 740px;
+	width: 100%;
+}
+
+.part-tow {
+	margin-top: -70px;
+	margin-left: 250px;
+}
+
+.part-tow a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.part-tow td img {
+	height: 200px;
+	width: 260px;
+}
+
+.part-tow_title1 {
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+.part-tow_title1 tr {
+	height: 40px;
+	width: 345px;
+}
+
+.part-tow_title1 tr:hover {
+	color: #1e59a8;
+}
+
+.part-tow_title1 td p {
+	max-height: 40px;
+	max-width: 305px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

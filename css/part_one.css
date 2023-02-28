@@ -1,0 +1,161 @@
+.wrap-top {
+	background-color: rgb(30, 89, 168);
+	width: 100%;
+	height: 30px;
+}
+
+.wrap-top span {
+	height: 30px;
+	margin-right: 20px;
+	margin-left: 950px;
+	text-align: center;
+	color: white;
+	font-size: 5px;
+}
+
+.wrap-top a {
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 5px;
+}
+
+.part-one {
+	height: 90px;
+	/*width: 100%;
+	background: #B0E0E6;
+	position: fixed;top: 0;
+	z-index: 9999;*/
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	margin-right: 45px;
+	margin-left: 55px;
+	margin-top: 15px;
+	height: 60px;
+}
+
+.part-one_ul {
+	position: relative;
+	margin-left: 250px;
+}
+
+.part-one_ul ul li {
+	margin-top: 31px;
+	margin-left: 15px;
+	float: left;
+	list-style: none;
+}
+
+.part-one_ul ul li a:hover {
+	color: #1e59a8;
+}
+
+.part-one_ul a {
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.part-one_login {
+	margin-top: 30px;
+	float: right;
+}
+
+.part-one_login a {
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+}
+
+.part-one_login a:hover {
+	color: #1e59a8;
+}
+
+.part-one_login input {
+	border: none;
+	height: 25px;
+	width: 80px;
+	background-color: rgb(220, 220, 220);
+	margin-right: 25px;
+}
+
+.part-one_login img {
+	position: absolute;
+	top: 84px;
+	right: 6px;
+	height: 27px;
+	background-color: rgb(220, 220, 220);
+}
+.banner {
+	height: 720px;
+	position: relative;
+	
+}
+.banner .banner_pic .pic {
+	display: none;
+}
+.banner .banner_pic .pic img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.banner .banner_pic .current img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.banner ol {
+	position: absolute;
+	left: 45%;
+	top: 75%;
+}
+.banner ol .but {
+	position: relative;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 1px;
+	border-radius: 50%;
+	margin-right: 12px;
+	background: #000000;
+}
+.banner ol li {
+	list-style: none;
+	cursor: pointer;
+}
+.banner ol .current {
+	color: #fff;
+	background: blue;
+	float: left;
+	width: 8px;
+	height: 8px;
+	border: 1px;
+	border-radius: 50%;
+	margin-right: 12px;
+}
+.a-wrap{
+	display: inline-block;
+	position: relative;
+}
+.tip{
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1100px;
+  height: 40px;
+  background-color: rgb(30, 89, 168);
+  font-size: 18px;
+  color: #000000;
+  display: none;
+}
+.a-wrap:hover .tip{
+	display: block;
+}
